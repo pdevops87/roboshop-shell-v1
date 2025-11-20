@@ -8,7 +8,7 @@ Environment=CART_HOST=172.31.26.26
 Environment=CART_PORT=8080
 Environment=USER_HOST=172.31.29.76
 Environment=USER_PORT=8080
-Environment=AMQP_HOST=<RABBITMQ-SERVER-IPADDRESS>
+Environment=AMQP_HOST=172.31.31.174
 Environment=AMQP_USER=roboshop
 Environment=AMQP_PASS=roboshop123
 
