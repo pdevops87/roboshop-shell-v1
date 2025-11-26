@@ -49,5 +49,5 @@ mongodb(){
 
   echo -e "\\e[33m load master-data \\e[0m"
   echo
-  mongosh --host mondodb-dev.pdevops78.online </app/db/master-data.js &>>/tmp/roboshop.log
+  mongosh --host mongodb-dev.pdevops78.online </app/db/master-data.js &>>/tmp/roboshop.log
 }
