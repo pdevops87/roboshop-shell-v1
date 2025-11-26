@@ -11,6 +11,11 @@ echo $?
 echo -e "\\e[33m Add roboshop user \\e[0m"
 useradd roboshop &>>/tmp/roboshop.log
 echo $?
+
+echo -e "\\e[33m remove a directory\\e[0m"
+rm -rf /app
+echo $?
+
 echo -e "\\e[33m make a directory \\e[0m"
 mkdir /app &>>/tmp/roboshop.log
 echo $?
