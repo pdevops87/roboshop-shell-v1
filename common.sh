@@ -20,7 +20,7 @@ echo -e "\\e[33m make a directory \\e[0m"
 mkdir /app &>>/tmp/roboshop.log
 echo $?
 echo -e "\\e[33m download content \\e[0m"
-curl -o /tmp/$component.zip https://roboshop-artifacts.s3.amazonaws.com/catalogue-v3.zip &>>/tmp/roboshop.log
+curl -o /tmp/$component.zip https://roboshop-artifacts.s3.amazonaws.com/$component-v3.zip &>>/tmp/roboshop.log
 echo $?
 echo -e "\\e[33m navigate to /app \\e[0m"
 cd /app &>>/tmp/roboshop.log
