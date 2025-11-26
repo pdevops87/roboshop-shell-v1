@@ -5,4 +5,4 @@ cp mongo.repo /etc/yum.repos.d/mongo.repo &>>/tmp/roboshop.log
 
 nodejs
 mongodb
-systemd_Service
+system_Service

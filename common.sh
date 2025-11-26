@@ -6,7 +6,7 @@ useradd roboshop &>>/tmp/roboshop.log
 mkdir /app &>>/tmp/roboshop.log
 curl -o /tmp/$component.zip https://roboshop-artifacts.s3.amazonaws.com/catalogue-v3.zip &>>/tmp/roboshop.log
 cd /app &>>/tmp/roboshop.log
-unzip /tmp/$component.zip
+unzip /tmp/$component.zip &>>/tmp/roboshop.log
 echo -e "\\e[33m navigate to /app directory \\e[0m"
 echo
 cd /app &>>/tmp/roboshop.log
