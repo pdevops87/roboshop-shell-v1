@@ -39,7 +39,7 @@ system_Service(){
   echo -e "\\e[33m component service \\e[0m"
   systemctl daemon-reload &>>/tmp/roboshop.log
   systemctl enable $component &>>/tmp/roboshop.log
-  systemctl start $component &>>/tmp/roboshop.log
+  systemctl restart $component &>>/tmp/roboshop.log
 }
 
 mongodb(){
