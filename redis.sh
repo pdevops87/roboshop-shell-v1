@@ -10,3 +10,4 @@ systemctl restart redis
 
 
 #dnf remove redis
+#sed -i 's/^protected-mode yes/protected-mode no/' /etc/redis/redis.conf
